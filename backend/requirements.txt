@@ -1,0 +1,42 @@
+# Core dependencies
+Django==4.2.7  # Latest LTS version
+djangorestframework==3.14.0  # Latest stable version
+
+# Database
+mysqlclient==2.2.1  # MySQL database connector instead of psycopg2
+
+# Authentication
+djangorestframework-simplejwt==5.3.0  # Replaces custom JWT implementation
+PyJWT==2.8.0  # Latest stable version
+
+# CORS
+django-cors-headers==4.3.0  # Latest stable version
+
+# Utils
+python-dateutil==2.8.2  # Latest stable version
+pytz==2023.3.post1  # Latest stable version
+six==1.16.0  # Latest stable version
+
+# Filtering
+django-filter==23.3  # Latest stable version
+
+# Server
+gunicorn==21.2.0  # Latest stable version
+whitenoise==6.6.0  # Latest stable version
+
+Pillow==11.1.0
+
+
+# Optional dependencies (uncomment if needed)
+# drf-yasg==1.21.7  # API documentation
+# celery==5.3.4  # Task queue
+# redis==5.0.1  # For caching and celery
+# Pillow==10.1.0  # Image processing
+
+# Development dependencies in requirements-dev.txt:
+# pytest==7.4.3
+# coverage==7.3.2
+# flake8==6.1.0
+# black==23.10.1
+# ipython==8.17.2
+# django-debug-toolbar==4.2.0
