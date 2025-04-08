@@ -44,6 +44,3 @@ This repo is used as a test for tech lead candidates. It represents A task manag
 - Project creation and management
 - Task tracking with assignments
 - Dashboard view
-
-## API
-API documentation can be found in the `/docs` directory.
